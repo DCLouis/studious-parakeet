@@ -1,0 +1,11 @@
+创建maven项目
+1. 创建没有模板的maven项目
+2. 点击auto-import
+3. ctrl + alt + shift + s 设置maven模板为web项目
+
+转为maven项目
+1. 右键module, 'add framework support', 选择maven
+
+maven 版本号中 "-SNAPSHOT"
+    适应 依赖库 不稳定的情况。
+    即使版本号更新也不会主动下载
