@@ -6,6 +6,13 @@
 转为maven项目
 1. 右键module, 'add framework support', 选择maven
 
+转为web项目 （未确定）
+1. maven 打包方式改为war包
+2. file -> Project Structure -> Facets -> 点击+号 -> Web
+3. 但是这样结果是web目录在src同级别
+
+如何打包ear
+
 maven 版本号中 "-SNAPSHOT"
     适应 依赖库 不稳定的情况。
     即使版本号更新也不会主动下载

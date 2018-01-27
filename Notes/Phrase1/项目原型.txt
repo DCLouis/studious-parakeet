@@ -1,0 +1,23 @@
+1. 设置jetty
+    使在浏览器中能访问页面
+    maven插件
+    <plugin>
+        <groupId>org.mortbay.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>8.1.9.v20130131</version>
+        <configuration>
+            <webApp>
+                <contextPath>/${project.artifactId}</contextPath>
+            </webApp>
+            <stopKey>STOP</stopKey>
+            <stopPort>9999</stopPort>
+            <scanIntervalSeconds>5</scanIntervalSeconds>
+        </configuration>
+    </plugin>
+
+2. Idea 插件
+    Key Promoter   热键提示
+    Present        热键提示
+    Jrebel         热部署插件
+
+3.
